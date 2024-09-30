@@ -1,0 +1,54 @@
+/* Stylizacja ogólna */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #3a9bff;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Stylizacja głównej treści */
+main {
+    padding: 20px;
+}
+
+.wishes p {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Stylizacja sekcji z obrazkiem */
+.image-section {
+    margin-top: 20px;
+}
+
+.chlopak-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Stylizacja stopki */
+footer {
+    background-color: #3a9bff;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
